@@ -32,3 +32,34 @@
 - Learn localStorage persistence for form data
 - Research Supabase basics for storing audit reports
 - Push multiple meaningful commits and keep deployment workflow ready
+
+
+## Day 2 — 2026-05-21
+
+**Hours worked:** 4
+
+**What I did:**
+- Built the initial spend input form on the homepage
+- Added support for dynamically adding and removing multiple AI tools
+- Implemented tool selection with plan dropdowns using structured pricing data
+- Added monthly spend and seat count inputs for each selected tool
+- Created reusable form components for cleaner structure and maintainability
+- Implemented localStorage persistence using a custom React hook so form state survives page reloads
+- Refactored pricing and type definitions into separate files for better scalability
+- Pushed multiple meaningful commits while keeping the project deployed and functional
+
+**What I learned:**
+- Better understanding of React state management for dynamic form arrays
+- How to build reusable form components cleanly in Next.js App Router
+- How localStorage persistence works with custom hooks and useEffect
+- Importance of separating UI logic from business logic early in the project
+
+**Blockers / what I'm stuck on:**
+- No major blockers today
+- Still planning the exact structure of the audit recommendation engine and recommendation scoring logic
+
+**Plan for tomorrow:**
+- Start building the audit engine logic and recommendation rules
+- Create savings calculation utilities
+- Begin writing automated tests for audit logic
+- Improve homepage layout and basic responsive behavior
